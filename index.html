@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+         
+    
+  <header>
+      <h1>devjobs</h1> 
+      <div class="data">
+       <div class="search">
+        <input type="text" class="job" id="jobtype" placeholder="&#61442; Filter by title,companies,location,expertise">
+        <input type="checkbox" id="box" onclick="check()" >
+        <label for="checkbox" class="label"> Full Time only</label>
+        <button id="btn" onclick="search()">search</button>
+       </div>
+      </div>
+  </header>
+  <section>
+   
+     <div class="user"></div>
+     <div class="user1"></div>
+     <div class="filtered"></div>
+    
+  </section>
+  <div>
+    <button id="next" >Load More</button>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+#user{
+   border: 2px solid white; 
+   background-color:ivory;
+   padding: 1%;
+   margin: 5%;
+   width: 200px;
+   height:100px;
+  float:left;
+}
+#filtered{
+    border: 2px solid white; 
+    background-color:ivory;
+    padding: 1%;
+    margin: 5%;
+    width: 200px;
+    height:100px;
+   float:left;
+ }
+ #searched{
+    border: 2px solid white; 
+    background-color:ivory;
+    padding: 1%;
+    margin: 5%;
+    width: 200px;
+    height:100px;
+   float:left;
+ }
+
+#user:hover{
+    background-color: orange;
+}
+#filtered:hover{
+    background-color: orange;
+}
+#name{
+    color: seagreen;
+}
+img{
+    width:30px;
+    height: 20px;
+}
+body{
+    background-color:#F2F1F1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#location{
+    font-size:0.7em;
+}
+#company{
+    font-size:0.9em;
+}
+#jobtype{
+    align-items: center;
+    width:40%;
+    height: 50px;
+   border:2px solid white;
+}
+
+#placeType{
+    align-items: center;
+    width: 200px;
+    height: 50px;
+   border:2px solid;
+}
+
+#btn{
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight:normal;
+}
+.label{
+    color: black;
+}
+#next{
+    margin: 10%;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-weight:normal;
+}
+.job{
+    font-family:'FontAwesome';
+}
+.place{
+    font-family:'FontAwesome','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    margin-left: 10%;
+    text-align:left;
+    color:white;
+}
+.search{
+    background-color: white;
+    width:40%;
+   margin: auto;
+   justify-content: space-around;
+   
+    
+}
+label{
+    color: white;
+}
+header{
+    margin-top: -240px;
+  border-radius: 0px 0px 0px 80px;
+  background-color:blue;
+   position: fixed;
+    width: 100%;
+}
+section{
+    width:100%;
+    margin-top: 240px;
+    
+}
+.card{
+    margin-top: -10%;
+    border-radius:2px;
+    width: 5%;
+    background-color: white;
+}
+.user{
+    margin-left: 10%;
+}
+.user1{
+    margin-left: 10%;
+}
+.filtered{
+    margin-left: 10%;
+}
+
