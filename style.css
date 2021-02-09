@@ -26,9 +26,6 @@
    float:left;
  }
 
-#user:hover{
-    background-color: orange;
-}
 #filtered:hover{
     background-color: orange;
 }
