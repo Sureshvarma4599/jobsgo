@@ -1,9 +1,11 @@
 
 //to display some jobs with window onload action
+
 window.onload=function() {
     const promise= new Promise((resolve,reject)=>{
         const http=new XMLHttpRequest();
-        http.open('GET',"https://jobs.github.com/positions.json")
+        http.open('GET',`https://cors-anywhere.herokuapp.com/jobs.github.com/positions.json`)
+   
         http.onload=()=>{
             if(http.status===200){
                 resolve(http.response)
@@ -14,6 +16,7 @@ window.onload=function() {
         }
 
         http.send();
+      
     })
     promise.then((data)=>{
         console.log(JSON.parse(data))
