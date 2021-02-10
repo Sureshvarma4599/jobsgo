@@ -53,7 +53,7 @@ bton.onclick=function() {
 
     const promise= new Promise((resolve,reject)=>{
         const http=new XMLHttpRequest();
-        http.open('GET',`https://jobs.github.com/positions.json?page=${page++}`)
+        http.open('GET',`https://cors-anywhere.herokuapp.com/jobs.github.com/positions.json?page=${page++}`)
    
         http.onload=()=>{
             if(http.status===200){
@@ -110,7 +110,7 @@ button.onclick=function() {
     const fil = document.querySelector("#jobtype").value;
       const promise= new Promise((resolve,reject)=>{
           const http=new XMLHttpRequest();
-          http.open('GET',`https://jobs.github.com/positions.json?description=${fil}&full_time=${clicked}`)
+          http.open('GET',`https://cors-anywhere.herokuapp.com/jobs.github.com/positions.json?description=${fil}&full_time=${clicked}`)
   
           http.onload=()=>{
               if(http.status===200){
